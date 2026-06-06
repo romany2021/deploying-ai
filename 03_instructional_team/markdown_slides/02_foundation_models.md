@@ -852,6 +852,11 @@ Many of the engineering efforts covered in this course exist precisely because w
 2. The Transformer architecture, built on self-attention, replaced RNNs and enabled parallelized training at scale.
 3. Post-training (SFT + preference fine-tuning) aligns foundation models to produce useful, safe, and well-formatted outputs.
 4. Model outputs are probabilistic: temperature, top-k, and top-p sampling control the creativity/consistency trade-off.
+
+---
+
+## Main Points (cont.)
+
 5. Hallucinations and inconsistencies are structural properties of probabilistic models, not simple bugs.
 6. Scaling laws (Chinchilla) show that parameters, training tokens, and compute must be balanced; more parameters alone is not sufficient.
 7. Training data quality and provenance directly determine model capabilities and failure modes.
